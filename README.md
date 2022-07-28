@@ -11,7 +11,7 @@ git clone https://github.com/josuealcalde/powerline-aws-vault.git
 
 cd powerline-aws-vault
 
-python3 setup.py install --user
+pip install .
 ```
 
 Then add the colorscheme in the `~/.config/powerline/colorschemes/default.json`
