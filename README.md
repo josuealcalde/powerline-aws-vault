@@ -1,5 +1,5 @@
-# Powerline-aws
-This is the [Powerline](https://github.com/powerline/powerline) segment to show current AWS account and role, so you are less like to make a deadly mistake.
+# Powerline-aws-vault
+This is the [Powerline](https://github.com/powerline/powerline) segment to show current [aws-vault](https://github.com/99designs/aws-vault) profile , soy you are less like to make a deadly mistake.
 
 Tested with BASH.
 
@@ -7,9 +7,9 @@ Tested with BASH.
 
 Firstly, install the package locally.
 ```
-git clone https://github.com/sireliah/powerline-aws
+git clone https://github.com/josuealcalde/powerline-aws-vault.git
 
-cd powerline-aws
+cd powerline-aws-vault
 
 python3 setup.py install --user
 ```
@@ -18,7 +18,7 @@ Then add the colorscheme in the `~/.config/powerline/colorschemes/default.json`
 
 ```json
         (...)
-        "aws_profile": { "fg": "white", "bg": "darkcyan", "attrs": [] }
+        "aws_vault_profile": { "fg": "white", "bg": "darkcyan", "attrs": [] }
     }
 }
 ```
@@ -31,7 +31,7 @@ Finally add the segment to your powerline shell config in `~/.config/powerline/t
         "left": [
             (...)
             {
-                "function": "powerline_aws.aws_profile",
+                "function": "powerline_aws_vault.aws_vault_profile",
                 "priority": 10
             }
         ],

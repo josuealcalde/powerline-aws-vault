@@ -1,10 +1,10 @@
 from distutils.core import setup
 
 setup(
-    name='powerline-aws',
+    name='powerline-aws-vault',
     version='1.0',
-    author='Piotr Gołąb',
-    author_email='',
-    url='https://github.com/sireliah/powerline-aws',
-    packages=['powerline_aws'],
+    author='Josué Alcalde González',
+    author_email='josuealcalde@medac.es',
+    url='https://github.com/josuealcalde/powerline-aws-vault',
+    packages=['powerline_aws_vault'],
 )
